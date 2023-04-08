@@ -1,13 +1,154 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,600;0,700;0,800;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --fs-48: 38px;
+  --fs-36: 28px;
+  --fs-32: 20px;
+  --fs-24: 24px;
+  --fs-22: 22px;
+  --fs-21: 21px;
+  --fs-20: 20px;
+  --fs-18: 15px;
+  --fs-17: 17px;
+  --fs-16: 16px;
+  --fs-15: 15px;
+  --fs-13: 13px;
+  --fs-12: 12px;
+
+  --color-clr_yellow: #FBB034;
+  --color-clr_white: #FFFFFF;
+  --color-bg_yellow: #FBB034;
+  --color-clr_grey: #B8B8B8;
+  --color-clr_black: #000000;
+  --color-bg_black: #000000;
+  --color-bg_lightwhite: #F6F6F6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clr_yellow {
+  color: var(--color-clr_yellow) !important;
+}
+
+.clr_white {
+  color: var(--color-clr_white) !important;
+}
+
+.bg_yellow {
+  background-color: var(--color-bg_yellow) !important;
+}
+
+.clr_grey {
+  color: var(--color-clr_grey) !important;
+}
+
+.clr_black {
+  color: var(--color-clr_black) !important;
+}
+
+.bg_black {
+  background-color: var(--color-bg_black) !important;
+}
+.bg_lightwhite {
+  background-color: var(--color-bg_lightwhite) !important;
+}
+
+/* font_size */
+
+.fs_48 {
+  font-size: var(--fs-48);
+}
+
+.fs_36 {
+  font-size: var(--fs-36);
+}
+
+.fs_32 {
+  font-size: var(--fs-32);
+}
+
+.fs_24 {
+  font-size: var(--fs-24);
+}
+
+.fs_22 {
+  font-size: var(--fs-22);
+}
+
+.fs_21 {
+  font-size: var(--fs-21);
+}
+
+.fs_20 {
+  font-size: var(--fs-20);
+}
+
+.fs_18 {
+  font-size: var(--fs-18);
+}
+
+.fs_17 {
+  font-size: var(--fs-17);
+}
+
+.fs_16 {
+  font-size: var(--fs-16);
+}
+
+.fs_15 {
+  font-size: var(--fs-15);
+}
+
+.fs_13 {
+  font-size: var(--fs-13);
+}
+
+.fs_12 {
+  font-size: var(--fs-12);
+}
+
+/* font-weight */
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_700 {
+  font-weight: 700;
+}
+
+/* font-family*/
+.ff_Poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.ff_Jost {
+  font-family: 'Jost', sans-serif;
+}
+
+.ff_DM {
+  font-family: 'DM+Sans', sans-serif;
+}
+
+
+@media (min-width:768px) {
+
+  :root {
+    --fs-48: 44px;
+    --fs-36: 36px;
+    --fs-32: 32px;
+    --fs-24: 24px;
+    --fs-22: 22px;
+    --fs-21: 21px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-17: 17px;
+    --fs-16: 16px;
+    --fs-15: 15px;
+    --fs-13: 13px;
+    --fs-12: 12px;
+  }
 }
