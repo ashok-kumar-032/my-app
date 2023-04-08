@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer';
 
 
 
-function App() {
+function App() { 
   return (
     <div>
       <Hero />
