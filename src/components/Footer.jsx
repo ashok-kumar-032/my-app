@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className='bg_black'>
+        <div className='bg_black '>
             <Container className='py-5'>
                 <div className='d-flex align-items-center justify-content-between flex-column flex-lg-row'>
                     <div className='d-flex align-items-center'>
