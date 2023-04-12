@@ -1,4 +1,4 @@
-  import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Hero from '../src/components/Hero';
 import About from '../src/components/About';
@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer';
 
 
 
-function App() { 
+function App() {
   return (
     <div>
       <Hero />

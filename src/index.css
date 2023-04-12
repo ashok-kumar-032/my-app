@@ -23,7 +23,6 @@
   --color-clr_grey: #B8B8B8;
   --color-clr_black: #000000;
   --color-bg_black: #000000;
-  --color-bg_lightwhite: #F6F6F6;
 }
 
 .clr_yellow {
@@ -48,9 +47,6 @@
 
 .bg_black {
   background-color: var(--color-bg_black) !important;
-}
-.bg_lightwhite {
-  background-color: var(--color-bg_lightwhite) !important;
 }
 
 /* font_size */
@@ -133,11 +129,28 @@
   font-family: 'DM+Sans', sans-serif;
 }
 
+@media (min-width:576px) {
+  :root {
+    --fs-48: 48px;
+    --fs-36: 36px;
+    --fs-32: 32px;
+    --fs-24: 24px;
+    --fs-22: 22px;
+    --fs-21: 21px;
+    --fs-20: 20px;
+    --fs-18: 18px;
+    --fs-17: 17px;
+    --fs-16: 16px;
+    --fs-15: 15px;
+    --fs-13: 13px;
+    --fs-12: 12px;
+  }
+}
 
 @media (min-width:768px) {
 
   :root {
-    --fs-48: 44px;
+    --fs-48: 48px;
     --fs-36: 36px;
     --fs-32: 32px;
     --fs-24: 24px;

@@ -10,10 +10,6 @@
 
 /* navbar */
 
-.h_20 {
-  height: 30px !important;
-}
-
 .bg_img {
   background-image: url(/src/assets/bg_img.png);
   background-repeat: no-repeat;
@@ -23,6 +19,11 @@
 .navlogo:hover {
   transform: scale(1.1);
 }
+
+.h_20 {
+  height: 30px !important;
+}
+
 
 .menuitem {
 
